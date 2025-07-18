@@ -10,6 +10,14 @@
             width: 33%;
             height: 193px;
         }
+        table
+        {
+            background-color:antiquewhite;
+        }
+        body
+        {
+            background-color:aquamarine;
+        }
         
     </style>
 </head>
@@ -17,7 +25,7 @@
     <form id="form1" runat="server">
         <div>
 
-            <table class="auto-style1">
+            <table  class="auto-style1">
                 <tr>
                     <td>
                         <asp:Label ID="lblFirstname" runat="server" Text="Firstname"></asp:Label>
